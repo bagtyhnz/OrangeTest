@@ -1,0 +1,173 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-21T08:55:33.282Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_defs.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify search results count is ok",
+        "description": "",
+        "id": "google-search;verify-search-results-count-is-ok",
+        "after": [
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_defs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2263000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the Google homepage",
+            "match": {
+              "location": "step_defs.searchStepDefs.i_am_on_the_Google_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 905000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I search for \"Apple\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_defs.searchStepDefs.i_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 771000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "the number of search results should be more than 100000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100000",
+                  "offset": 49
+                }
+              ],
+              "location": "step_defs.searchStepDefs.the_number_of_search_results_should_be_more_than(long)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-21T08:55:37.316Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_defs.Hooks.setUp(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Verify search results count is not less than minimum",
+        "description": "",
+        "id": "google-search;verify-search-results-count-is-not-less-than-minimum",
+        "after": [
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "step_defs.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1624000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am on the Google homepage",
+            "match": {
+              "location": "step_defs.searchStepDefs.i_am_on_the_Google_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 917000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for \"Apple\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Apple\"",
+                  "offset": 13
+                }
+              ],
+              "location": "step_defs.searchStepDefs.i_search_for(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1933000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the number of search results should not be less than 10000",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10000",
+                  "offset": 53
+                }
+              ],
+              "location": "step_defs.searchStepDefs.the_number_of_search_results_should__not_be_less_than(long)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search",
+    "description": "",
+    "id": "google-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/search.feature",
+    "tags": []
+  }
+]
