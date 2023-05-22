@@ -27,11 +27,11 @@ To run this project locally, make sure you have the following prerequisites inst
 Install the project dependencies by running the following command in the terminal:
 mvn clean install
 
-##Running the Tests
+## Running the Tests
 
 To run the test cases, use the following command in the terminal: mvn test
 
-##Test Cases
+## Test Cases
 
 The project includes two automated test cases:
 
@@ -40,7 +40,7 @@ Test Case 2: Negative test
 
 The test steps can be found inside the 'search.feature' file.
 
-##Report
+## Report
 
 This simple framework provides cucumber HTML report which you can view after running the tests. You can find it following this path: target/cucumber-html-reports/report-feature_875725645.html
 
