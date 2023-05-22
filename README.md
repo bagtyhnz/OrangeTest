@@ -28,9 +28,11 @@ Install the project dependencies by running the following command in the termina
 mvn clean install
 
 ##Running the Tests
+
 To run the test cases, use the following command in the terminal: mvn test
 
 ##Test Cases
+
 The project includes two automated test cases:
 
 Test Case 1: Positive test
@@ -39,6 +41,7 @@ Test Case 2: Negative test
 The test steps can be found inside the 'search.feature' file.
 
 ##Report
+
 This simple framework provides cucumber HTML report which you can view after running the tests. You can find it following this path: target/cucumber-html-reports/report-feature_875725645.html
 
 Open the html file in browser. 
